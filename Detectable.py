@@ -151,7 +151,7 @@ def about_page():
     # Optional: Display information about the app using a DataFrame (replace with your data)
     about_data = pd.DataFrame({
         "Feature": ["Deep Learning Model", "Accuracy", "Functionality"],
-        "Value": ["Convolutional Neural Network (CNN)", "90% (placeholder)", "Detects deepfakes in images and videos"]
+        "Value": ["ResNeXt-50 + LSTM fusion model", "96%", "Detects deepfakes in videos"]
     })
     st.table(about_data)
 
