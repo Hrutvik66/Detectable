@@ -104,7 +104,7 @@ def home_page():
     st.title("Detectable")
     st.markdown("---")
 
-    st.write("Welcome to Detectable! Upload an image or video to verify its authenticity.")
+    st.write("Welcome to Detectable! Upload a video to verify its authenticity.")
     # File uploader
     uploaded_file = st.file_uploader("Choose a video...", type=["mp4"])
     
